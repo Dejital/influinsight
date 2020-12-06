@@ -17,7 +17,7 @@ ij_visual_guides = none
 ij_wrap_on_typing = false
 
 [{*.ats,*.ts}]
-ij_continuation_indent_size = 4
+ij_continuation_indent_size = 2
 ij_typescript_align_imports = false
 ij_typescript_align_multiline_array_initializer_expression = false
 ij_typescript_align_multiline_binary_operation = false
