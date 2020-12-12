@@ -1,4 +1,22 @@
 .container {
   max-width: 800px;
   margin: 0 auto;
+  padding-top: 12px;
+}
+
+.header h1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  font-size: 24pt;
+}
+
+.header span {
+  font-size: 12pt;
+  padding-top: 12px;
+  float: right;
+}
+
+.header a {
+  color: white;
 }
