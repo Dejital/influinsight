@@ -33,9 +33,3 @@ def clean(T):
 posts = list(map(clean, posts_sorted_by_likes))
 
 print(json.dumps(posts))
-
-conn = psycopg2.connect(dsn)
-
-
-#for post in posts_sorted_by_likes:
-    #print("https://www.instagram.com/p/" + post.shortcode + "    Likes:" + str(post.likes))

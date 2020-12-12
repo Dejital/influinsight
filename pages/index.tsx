@@ -41,6 +41,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Influinsight</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <PageHeader
         title={"Instagram - Sorted by Likes"}

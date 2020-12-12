@@ -34,6 +34,7 @@ function ViewJob({ data }) {
     <div className={styles.container}>
       <Head>
         <title>@{argument} - Influinsight</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <PageHeader title={`@${argument}`} subTitle={"Instagram posts sorted by likes."} onBack={() => router.push("/")}>
         <Layout.Content>
